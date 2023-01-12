@@ -36,7 +36,7 @@ export default class NavBar extends Component {
                     About
                   </link>
                 </li> */}
-                {/* <li className="nav-item">
+                <li className="nav-item">
                   <Link className="nav-link" to="/business">
                     Business
                   </Link>
@@ -70,8 +70,10 @@ export default class NavBar extends Component {
                   <Link className="nav-link" to="/technology">
                     Technology
                   </Link>
-                </li> */}
-                <div
+                </li>
+
+                {/* Dropdown menu */}
+                {/* <div
                   className="collapse navbar-collapse"
                   id="navbarNavDarkDropdown"
                 >
@@ -86,21 +88,6 @@ export default class NavBar extends Component {
                         Category
                       </Link>
                       <ul className="dropdown-menu dropdown-menu-dark">
-                        {/* <li>
-                      <a classname="dropdown-item" href="#">
-                        Action
-                      </a>
-                    </li>
-                    <li>
-                      <a classname="dropdown-item" href="#">
-                        Another action
-                      </a>
-                    </li>
-                    <li>
-                      <a classname="dropdown-item" href="#">
-                        Something else here
-                      </a>
-                    </li> */}
                         <li>
                           <Link className="dropdown-item" to="/business">
                             Business
@@ -139,7 +126,7 @@ export default class NavBar extends Component {
                       </ul>
                     </li>
                   </ul>
-                </div>
+                </div> */}
               </ul>
             </div>
           </div>
