@@ -1,0 +1,62 @@
+{
+  "status": "ok",
+  "totalResults": 5,
+  "articles": [
+    {
+      "source": { "id": "al-jazeera-english", "name": "Al Jazeera English" },
+      "author": "Al Jazeera",
+      "title": "Russia rejects Zelenskyy’s ‘peace formula’: Lavrov",
+      "description": "Zelenskyy’s 10-point peace plan envisages Russia restoring Ukraine’s territorial integrity.",
+      "url": "http://www.aljazeera.com/news/2022/12/29/russia-rejects-zelenskyys-peace-formula-lavrov",
+      "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2022/12/AP22357460032980.jpg?resize=1920%2C1440",
+      "publishedAt": "2022-12-29T08:14:24Z",
+      "content": "Russia has rejected Ukrainian President Volodymyr Zelenskyys peace formula as a basis for negotiations and believes Kyiv is still not ready for real peace talks, Foreign Minister Sergey Lavrov told s… [+3194 chars]"
+    },
+    {
+      "source": { "id": "al-jazeera-english", "name": "Al Jazeera English" },
+      "author": "Mersiha Gadzo",
+      "title": "Russia-Ukraine live news: Lavrov rejects Zelenskyy’s peace plan",
+      "description": "Moscow won’t accept the Ukrainian president’s ‘peace formula’ as a basis for negotiations, Russia’s FM says.",
+      "url": "http://www.aljazeera.com/news/liveblog/2022/12/29/russia-ukraine-live-lavrov-rejects-zelenskyys-peace-formula",
+      "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2022/12/2022-12-28T162544Z_1723742368_RC2XEY9GLYRH_RTRMADP_3_UKRAINE-CRISIS-EAST-FARMERS.jpg?resize=1920%2C1440",
+      "publishedAt": "2022-12-29T06:41:32Z",
+      "content": "blinking-dot\r\nLive updatesLive updates, \r\nMoscow will not use Ukrainian presidents peace formula as a basis for negotiations, Russian FM says."
+    },
+    {
+      "source": { "id": "reuters", "name": "Reuters" },
+      "author": null,
+      "title": "Russia steps up Kherson shelling, dismisses Zelenskiy's peace plan",
+      "description": "Ukraine's recently liberated southern city of Kherson suffered intense mortar and artillery attacks from Russian forces across the Dnipro river, while the Kremlin rejected a Ukrainian peace plan, demanding that Kyiv accept its annexation of four regions.",
+      "url": "https://www.reuters.com/world/europe/russia-steps-up-kherson-shelling-dismisses-zelenskiys-peace-plan-2022-12-29/",
+      "urlToImage": "https://www.reuters.com/resizer/m1QKAVIIUw9AFsFdP-YS1pBHlyg=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/MF5RF624IJJ7RHXBDASFZFR67Y.jpg",
+      "publishedAt": "2022-12-29T04:44:14Z",
+      "content": "KYIV/BAKHMUT, Ukraine, Dec 29 (Reuters) - Ukraine's recently liberated southern city of Kherson suffered intense mortar and artillery attacks from Russian forces across the Dnipro river, while the Kr… [+4551 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-times",
+        "name": "The Washington Times"
+      },
+      "author": "Guy Taylor, Ben Wolfgang",
+      "title": "Russia, Ukraine crack open door toward peace talks but neither side ready to make concessions",
+      "description": "Russia announced a ban on oil exports to Western powers Wednesday even as Kremlin officials seemed to keep the door cracked open to ceasefire talks over Moscow's nearly year-long military invasion of Ukraine.",
+      "url": "https://www.washingtontimes.com/news/2022/dec/28/russia-ukraine-crack-open-door-toward-peace-talks-/",
+      "urlToImage": "https://twt-thumbs.washtimes.com/media/image/2022/12/28/Russia_Ukraine_War_39280_c0-290-3500-2331_s1200x700.jpg?1118b22b88a715381f16f13dfc8b39da55aa6e8c",
+      "publishedAt": "2022-12-28T16:17:52Z",
+      "content": "Russia announced a ban on oil exports to Western powers Wednesday even as Kremlin officials seemed to keep the door cracked open to cease-fire talks over Moscows nearly yearlong military invasion of … [+6808 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-times",
+        "name": "The Washington Times"
+      },
+      "author": "Martin Di Caro",
+      "title": "History As It Happens: What happened to the 'new world order?'",
+      "description": "As the Cold War wound down, U.S. leaders and intellectuals saw a new world emerging as the 1990s unfolded, where American power could lead to peace and cooperation. Does that new world still exist? Did it ever exist?",
+      "url": "https://www.washingtontimes.com/news/2022/aug/8/history-it-happens-what-happened-new-world-order/",
+      "urlToImage": "https://twt-thumbs.washtimes.com/media/image/2018/12/01/obit_george_hw_bush_89680_c0-121-3022-1883_s1200x700.jpg?2e2f24d7e2d55bcd78df6163618b4471f352f58f",
+      "publishedAt": "2022-08-08T12:04:26Z",
+      "content": "On Sept. 11, 1990, President George H.W. Bush delivered an address to a joint session of Congress at what he believed was a critical moment in history. The Cold War was winding down, and democratic r… [+2995 chars]"
+    }
+  ]
+}
