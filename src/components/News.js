@@ -15,7 +15,6 @@ const News = (props) => {
   const [totalResults, setTotalResults] = useState(0);
 
   const updateNews = async () => {
-    console.log("setProgress = " + props.setProgress);
     props.setProgress(10);
     let url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page}&pageSize=${props.pageSize}`;
     props.setProgress(30);
@@ -23,7 +22,6 @@ const News = (props) => {
     props.setProgress(50);
     let parseData = await data.json();
     props.setProgress(70);
-    console.log(parseData);
 
     setArticles(parseData.articles);
     setTotalResults(parseData.totalResults);
@@ -54,7 +52,7 @@ const News = (props) => {
     <>
       <h2
         className="text-center"
-        style={{ margin: "35px 0px", marginTop: "90px" }}
+        style={{ margin: "35px 0px", marginTop: "90px", color: "#505050" }}
       >
         NewsEagle - Top <b>{props.category}</b> headlines
       </h2>
@@ -67,12 +65,12 @@ const News = (props) => {
         hasMore={articles.length !== totalResults}
         loader={<Spinner />}
       >
-        <div className="container">
-          <div className=" row ">
+        <div className="container d-flex justify-content-evenly ">
+          <div className="row w-75 ">
             {/* There are 12 grids in a row of bootsrap class container. So, below 3 coloumns will occupy 4 grids.*/}
             {articles.map((element, index) => {
               return (
-                <div className="col-md-3 " key={index}>
+                <div className="col-md-4 " key={index}>
                   <NewsItem
                     title={element.title ? element.title : ""}
                     description={element.description ? element.description : ""}

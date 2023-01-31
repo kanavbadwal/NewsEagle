@@ -1,10 +1,17 @@
 import React from "react";
-import loading from "./loading.gif";
 
 const Spinner = () => {
   return (
-    <div className="text-center">
-      <img className="my-3" src={loading} alt="loading" />
+    <div className="text-center my-3 ">
+      <div className="spinner-grow text-success">
+        <span className="visually-hidden"></span>
+      </div>
+      <div className="spinner-grow text-danger">
+        <span className="visually-hidden"></span>
+      </div>
+      <div className="spinner-grow text-warning">
+        <span className="visually-hidden"></span>
+      </div>
     </div>
   );
 };
